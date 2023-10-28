@@ -1,10 +1,13 @@
-function Book(title, pages, isbn){
-    this.title = title;
-    this.pages = pages;;
-    this.isbn = isbn;
-    this.printIsbn = function(){
-        console.log(this.isbn) // método diretamente na definição da classe
+class Book{
+    constructor(title, pages, isbn) {
+        this.title = title;
+        this.pages = pages;;
+        this.isbn = isbn;
+        this.printIsbn = function(){
+            console.log(this.isbn) // método diretamente na definição da classe
+        }
     }
+   
 }
 
 //instancia
