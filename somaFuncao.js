@@ -7,3 +7,7 @@ function sum (x, y, z){
     return x + y + z;
 }
 console.log(sum(4, 2))
+
+let params = [3, 4, 5]
+
+console.log(sum(...params)); //operador de espalhamento

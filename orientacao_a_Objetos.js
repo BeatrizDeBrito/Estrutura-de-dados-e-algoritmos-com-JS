@@ -1,7 +1,7 @@
 class Book{
-    constructor(title, pages, isbn) {
+    constructor(title, pages, isbn) { // declaração da função contrutor
         this.title = title;
-        this.pages = pages;;
+        this.pages = pages;
         this.isbn = isbn;
         this.printIsbn = function(){
             console.log(this.isbn) // método diretamente na definição da classe

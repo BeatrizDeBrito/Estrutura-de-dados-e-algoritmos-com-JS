@@ -9,5 +9,8 @@ class Person{
         this._name = value
     }
 }
+
 let lotrChar = new Person('Frodo')
+console.log(lotrChar.name)
+lotrChar.name = 'Gandalf'
 console.log(lotrChar.name)
