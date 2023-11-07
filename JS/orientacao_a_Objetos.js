@@ -10,6 +10,7 @@ class Book{
    
 }
 
+module.exports = Book;
 //instancia
 var book = new Book('A Revolução dos Bichos', '200', '1020');
 book.printIsbn(); // método

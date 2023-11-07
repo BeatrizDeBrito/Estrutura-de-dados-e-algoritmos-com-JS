@@ -1,3 +1,4 @@
+const Book = require("./orientacao_a_Objetos");
 
 class ITBook extends Book{
     constructor(title, pages, isbn, technology){

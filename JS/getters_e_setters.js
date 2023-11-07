@@ -10,6 +10,7 @@ class Person{
     }
 }
 
+
 let lotrChar = new Person('Frodo')
 console.log(lotrChar.name)
 lotrChar.name = 'Gandalf'

@@ -1,0 +1,10 @@
+//arquivo de configuração usado pelo TypeScript 
+//para especificar como o compilador deve compilar
+//o projeto TypeScript
+{
+    "compilerOptions": {
+      "target": "es5",
+      "outDir": "dist"
+    }
+  }
+  
